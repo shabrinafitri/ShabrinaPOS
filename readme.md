@@ -8,20 +8,10 @@
 </p>
 
 ## About Laravel
-
-## Report Pembayaran error gan :V 
-
-1.) Download project na, terus buka directory project 'sudo composer install'
-2.) Samain file .env sama database mongo kalean.
-3.) php artisan migrate:fresh --seed
-4.) Ada 3 role : Admin, SuperAdmin, Kasir
-	Admin : email/pw = admin@gmail.com / 888888
-	SuperAdmin : email/pw = superadmin@gmail.com / 888888
-	Kasir : email/pw = kasir@gmail.com / 888888
-5.) Cobain atu-atu.. Ubah-ubahin yaa, bedain gann
-6.) Oya kalo ada error coba dulu yaa.. Ini project na gada edit na maapin eh wkwk
-7.) Happy Kudingg
-
-## License
-
+1.) php artisan migrate --seed
+2.) Ada 3 role : Admin, SuperAdmin, Kasir
+	Admin : email/pw = admin@admin.com / admin
+	SuperAdmin : email/pw = superadmin@admin.com / admin
+	Kasir : belum dibuat
+# License
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
